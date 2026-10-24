@@ -100,7 +100,7 @@ class TimerService : Service() {
         val text = if (finished) "Your eggs are done." else "${formatRemaining(remainingMs)} left"
 
         return NotificationCompat.Builder(this, CHANNEL_ID)
-            .setSmallIcon(R.drawable.ic_launcher_egg)
+            .setSmallIcon(R.drawable.ic_stat_egg)
             .setContentTitle(title)
             .setContentText(text)
             .setContentIntent(open)
