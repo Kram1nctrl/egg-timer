@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Egg Timer</string>
+    <string name="timer_channel_name">Egg timer</string>
+    <string name="timer_channel_description">Shows the running countdown and alerts you when the eggs are ready.</string>
+</resources>
